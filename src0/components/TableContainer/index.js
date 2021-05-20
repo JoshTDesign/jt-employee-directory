@@ -1,6 +1,9 @@
 import React from "react";
-import EmployeeTable from "./EmployeeTable";
-import API from "../../utils/API"
+import EmployeeTable from "../EmployeeTable";
+
+
+
+
 
 
 function TableContainer(props) {
@@ -15,7 +18,7 @@ function TableContainer(props) {
             </tr>
         </thead>
         <tbody>
-            <EmployeeTable />
+           {props.children}
         </tbody>
         </table>
   );
