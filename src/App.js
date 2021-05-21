@@ -80,7 +80,7 @@ class App extends Component {
               <Title>Employee Directory</Title>
               <form>
                 <fieldset>
-                  <input type="text" name="searchField" placeholder="Search by last name" id="nameField" value={this.state.searchField} onChange={this.handleInputChange}/>
+                  <input type="text" name="searchField" placeholder="Search by first or last name" id="nameField" value={this.state.searchField} onChange={this.handleInputChange}/>
                   <input className="button-primary" type="submit" value="Search" onClick={this.handleFormSubmit}/>
                   <input className="button-clear" type="submit" value="Clear" onClick={this.clearSearch}/>
                 </fieldset>
