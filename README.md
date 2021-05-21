@@ -20,6 +20,10 @@ A tool for tracking, and searching for employees within an organization.
 
 Users of the app are presented with a list of employees, currently pulled from an api. Users can then search for first or last names to filter the list, or click on the 'sort' button to toggle the alphabetization of the employee list by last name.
 
+### Screen captures
+![](resources/screencap1.PNG)
+![](resources/screencap2.PNG)
+
 ### Challenges encountered  
 This project helped me become familiar with setting up a React application. It helped me understand the relationship between components and how data can be manipulated and used by components to change state.
 
@@ -30,6 +34,11 @@ This project relies on a React app architecture, and a lightweight Milligram CSS
 ### How to contribute  
 Feel free to clone this repo to extend or improve this app.
 
+### Link to repository
+https://github.com/JoshTDesign/jt-employee-directory
+
+### Link to deployed project
+https://jt-employee-directory.herokuapp.com/
 
 ### License  
 This work is covered under MIT.
